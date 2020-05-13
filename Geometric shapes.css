@@ -1,0 +1,56 @@
+body{
+    background-color: grey;
+}
+*{
+    margin: 5;
+    padding: 6;
+}
+div.square{
+    height: 100px;
+    width: 100px;
+    background-color: hotpink;
+    border: 1.5px  solid black;
+}
+div.circle{
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    border-radius: 50%;
+}
+div.oval{
+    height: 150px;
+    width: 150px;
+    background-color: #AF4512;
+    border-radius: 50%;
+}
+div.trapezoid{
+    border-bottom: 45px solid coral;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+}
+div.rectangle{
+    width: 150px;
+    height: 115px;
+    background-color: yellow;
+    border: 2px solid #333
+}
+div.parallelogram{
+    width: 100px;
+    height: 50px;
+    transform: skew(20deg);
+    background-color: seagreen;
+}
+div.triangle-up{
+    height: 0;
+    width: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid turquoise;
+}
+div.triangle-right {
+    height: 0;
+    width: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 80px solid #452;
+}
